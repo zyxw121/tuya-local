@@ -820,6 +820,19 @@ Further device support has been made with the assistance of users. Please consid
 - [mmaarrkk02](https://github.com/mmaarrkk02) for contributing support for NWT WDH-10EM dehumidifier.
 - [toller892](https://github.com/toller892) for contributing a fix for water heaters.
 - [terryrankine](https://github.com/terryrankine) for contributing support for AOSDK garage door with light.
--- [DawidSu](https://github.com/DawidSu) for contributing support for Varpoolfaye pool heat pump.
+- [DawidSu](https://github.com/DawidSu) for contributing support for Varpoolfaye pool heat pump.
 - [rbswift](https://github.com/rbswift) for contributing improvements to Intaflo Intabloc combo heat pump.
 - [wantstoautomate](https://github.com/wantstoautomate) for contributing improvements to Lublueblu SL60D vacuum.
+- [eisenbergergrobin](https://github.com/eisenbergergrobin) for contributing improvements to Create fan with light.
+- [cmoates](https://github.com/cmoates) for contributing support for Comfort Zone tower fan.
+- [dhomeed](https://github.com/dhomeed) for contributing support for Alpine Saunas Helsinki sauna controller.
+- [slickm0nty](https://github.com/slickm0nty) for contributing support for NBQ100-US solar microinverter.
+- [wangwillian0](https://github.com/wangwillian0) for contributing support for Abir X9 vacuum.
+- [m0bua](https://github.com/m0bua) for contributing support for Yagusmart iMeter 3PN energy meter.
+- [jjsmackay](https://github.com/jjsmackay) for contributing improvements to Moes WCM-P52 camera.
+- [guanaco0403](https://github.com/guanaco0403) for contributing support for Qlima SC 7035S air conditioner.
+- [teun95](https://github.com/teun95) for contributing support for MeacoFan Sefte Pro air circulator.
+- [bakerlee](https://github.com/bakerlee) for contributing support for Verminpool pool heat pump.
+- [EnO33](https://github.com/EnO33) for contributing support for Intex PureSpa inflatable spa.
+- [vanyasvl](https://github.com/vanyasvl) for contributing support for Afyeev 32A 7kW EV charger.
+- [Flechaa](https://github.com/Flechaa) for contributing support for HTW IX75B air conditioner.
