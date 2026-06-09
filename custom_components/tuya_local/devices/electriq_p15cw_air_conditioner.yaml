@@ -1,0 +1,111 @@
+name: Air conditioner
+products: 
+  - id: gzs7js63eomq7ie
+  - manufacturer: Electriq
+  - model: Portable Smart Wifi Air Conditioner
+  - model_id: P15CW
+entities:
+  - entity: climate
+    dps:
+      - id: 1
+        name: hvac_mode
+        type: boolean
+        mapping:
+          - dps_val: true
+            constraint: mode
+            conditions:
+              - dps_val: "cool"
+                value: cool
+              - dps_val: "dry"
+                value: dry
+              - dps_val: "fan"
+                value: fan_only
+              - dps_val: "auto"
+                value: auto
+          - dps_val: false
+            value: "off"
+      - id: 2
+        name: current_temperature
+        type: integer
+        range:
+          min: 16
+          max: 30
+        mapping:
+          - scale: 1
+            constraint: temperature_unit
+            - dps_val: f
+              value_redirect: current_temperature_f
+              range:
+                min: 61
+                max: 87
+      - id: 3
+        name: current_temperature_f
+        type: integer
+        range:
+          min: 61
+          max: 87
+        hidden: true
+      - id: 4
+        name: hvac_action
+        type: string
+      - id: 5
+        name: temperature
+        type: integer
+        range:
+          min: 16
+          max: 30
+        mapping:
+          - scale: 1
+            constraint: temperature_unit
+            - dps_val: f
+              value_redirect: temperature_f
+              range:
+                min: 61
+                max: 87
+      - id: 6
+        name: temperature_f
+        hidden: true
+        type: integer
+        range:
+          min: 61
+          max: 87
+      - id: 7
+        name: mode
+        hidden: true
+        type: string
+      - id: 8
+        name: temperature_unit
+        type: string
+        mapping:
+          - dps_val: f
+            value: F
+          - dps_val: c
+            value: C
+      - id: 9
+        name: fan_mode
+        type: string
+        mapping:
+          - dps_val: "low"
+            value: low
+          - dps_val: "middle"
+            value: middle
+          - dps_val: "high"
+            value: high
+          - dps_val: "auto"
+            value: auto
+      - id: 10
+        name: swing_mode
+        type: boolean
+        mapping:
+          - dps_val: false
+            value: "off"
+          - dps_val: true
+            value: vertical
+      - id: 12
+        name: preset_mode
+        type: boolean
+        mapping:
+          - dps_val: false
+            value: none
+          - dps_val: true
+            value: sleep
